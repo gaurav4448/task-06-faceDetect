@@ -1,0 +1,6 @@
+In this task we have used AWS cloudformation (Infrastructure as code) service to create instance, extra volume of 5GB and then have attached them both. 
+In the "code.yml" file, the code is written in YAML format which is just like key and value pairs. we can also write it in JSON.
+
+In python we are using os module to run the AWS CLI commands but before that we have to configure our AWS CLI using "aws configure" command.
+
+In the python code, i have used cv module for live dataset collection and "haarcascade" for face detection. we have trained the model using "LBPHfaceRecognizer".
